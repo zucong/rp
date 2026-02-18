@@ -1,0 +1,18 @@
+# Roleplay Chat Configuration Example
+# 1. Copy this file to config.yaml
+# 2. Fill in your actual API key
+
+# Database configuration
+database:
+  path: "./data/app.db"  # SQLite database file path
+
+# LLM API configuration
+llm:
+  api_endpoint: "https://api.openai.com/v1"  # Or OpenRouter, Ollama, etc.
+  api_key: "your-api-key-here"  # Replace with your API key
+  default_model: "gpt-3.5-turbo"  # Default model
+
+# Server configuration
+server:
+  port: 8080
+  host: "0.0.0.0"
